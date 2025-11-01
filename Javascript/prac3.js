@@ -28,5 +28,34 @@ let value = 1029;
 // alert(counter);//3
 
 //comma 
-let a = (1+100,200);
-alert(a);
+// let a = (1+100,200);
+// alert(a);
+
+// let con=confirm("Sure you want to continue?");
+// if(con) 
+// {
+//     alert("Congrats you are hacked");
+//     alert("No point closing this site");
+// }
+// else
+// {
+//     alert("You are missing so much");
+//     alert("Grow up you baby");
+// }
+// if(!con) alert("You are missing so much");
+
+// let age = prompt("Enter your age:");
+// let access = (age>18) ? true : false;
+// if (access) 
+// {
+//     alert("Hey there big guy");
+// }
+// else
+// {
+//     alert("Your Mom has been notified");
+// }
+
+let company = prompt('Which company created JavaScript?', '');
+
+(company == 'Netscape') ?
+   alert('Right!') : alert('Wrong.');
