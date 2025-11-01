@@ -1,2 +1,2 @@
 Progress: <br />
-Javascript (working in it)<br />
+Javascript (working on it)<br />
