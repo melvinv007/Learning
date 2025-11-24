@@ -1,10 +1,8 @@
 Progress: <br />
 Javascript (working on it)<br />
+DSA<br />
 
 Markdown guide:
-# 🌟 THE ULTIMATE MARKDOWN MEGA CHEATSHEET  
-*(Complete guide — beginner → advanced → expert)*
-
 ---
 
 # 📌 1. HEADINGS
