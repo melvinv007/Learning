@@ -4,7 +4,7 @@ using namespace std;
 bool sorted(int arr[],int size)
 {
     int i = 0;
-    while(i<size)
+    while(i<size-1)
     {
         if (arr[i]>arr[i+1]) return false;
         i++;
@@ -14,9 +14,9 @@ bool sorted(int arr[],int size)
 
 void recur_bubble(int arr[],int size)
 {
-    if (size<=1 || sorted(arr,size)) return;
+    if (size<=1) return;
     int i = 0;
-    while (i<size)
+    while (i<size-1)
     {
         if (arr[i]>arr[i+1]) swap(arr[i],arr[i+1]);
         i++;
